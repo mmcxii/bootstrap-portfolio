@@ -1,1 +1,11 @@
-$colors: ();
+$colors: (
+    accent: #4aaaa5,
+    dark_grey: #666,
+    primary: #777,
+    light_grey: #ccc,
+    lighter_grey: #ddd,
+    white: #fff,
+);
+
+$font-stack: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+$header-font-stack: 'Georgia', Times, Times New Roman, serif;
