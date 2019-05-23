@@ -1,0 +1,39 @@
+.navbar {
+    padding: 0;
+    transition: ease-in-out 500ms;
+
+    .nav {
+        &-item {
+            &:not(:last-child) {
+                border-right: color(lighter_grey) 1px solid;
+                padding-left: 1px;
+            }
+
+            &.active .nav-link {
+                color: color(accent);
+                font-weight: 500;
+            }
+        }
+
+        &-link {
+            font-size: 18px;
+            text-decoration: none;
+            color: color(primary);
+            padding: 0 10px;
+
+            &.active {
+                color: color(accent);
+            }
+        }
+    }
+
+    &:hover .nav-item:not(.active) {
+        opacity: 0.5;
+        transition: ease-in-out 500ms;
+
+        &:hover {
+            opacity: 1;
+            transition: ease-in-out 300ms;
+        }
+    }
+}

@@ -3,10 +3,11 @@
     letter-spacing: 0.3rem;
     float: left;
     padding: 0 40px;
-    height: inherit;
+    height: 100px;
 
     h1 {
         color: color(white);
+        line-height: 100px;
     }
 
     .animate {

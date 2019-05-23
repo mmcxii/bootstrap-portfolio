@@ -1,0 +1,9 @@
+.btn-custom {
+    background-color: color(accent);
+    color: color(white);
+
+    &:hover {
+        color: color(white);
+        background-color: darken(color(accent), 7);
+    }
+}
