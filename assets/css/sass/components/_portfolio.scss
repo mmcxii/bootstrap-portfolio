@@ -1,9 +1,9 @@
 .portfolio {
     &-item {
-        display: inline-block;
+        display: block;
         height: 200px;
         width: 250px;
-        margin: 20px;
+        margin: 20px auto;
         border: color(dark_grey) 1px solid;
 
         &-title {

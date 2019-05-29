@@ -1,6 +1,7 @@
 .navbar {
     padding: 0;
     transition: ease-in-out 500ms;
+    z-index: 1;
 
     .nav {
         &-item {
@@ -36,4 +37,11 @@
             transition: ease-in-out 300ms;
         }
     }
+}
+
+#navbarNav {
+    background-color: color(white);
+    border: color(lighter_grey) 1px solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
