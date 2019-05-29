@@ -7,5 +7,12 @@ $colors: (
     white: #fff,
 );
 
+$breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+);
+
 $font-stack: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 $header-font-stack: 'Georgia', Times, Times New Roman, serif;

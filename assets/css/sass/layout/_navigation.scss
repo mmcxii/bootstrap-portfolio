@@ -39,9 +39,11 @@
     }
 }
 
-#navbarNav {
-    background-color: color(white);
-    border: color(lighter_grey) 1px solid;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+@include mq(breakpoint(sm)) {
+    #navbarNav {
+        background-color: color(white);
+        border: color(lighter_grey) 1px solid;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 }
